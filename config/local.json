@@ -1,0 +1,15 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "debug": true,
+  "cache": {
+    "enable": false,
+    "whitelist": []
+  },
+  "session": {
+    "cookieDomain": "localhost",
+    "maxAge": 43200,
+    "cookiePrefix": "",
+    "path": "/",
+    "httpOnly": true
+  }
+}

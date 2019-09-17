@@ -1,0 +1,19 @@
+{
+  "presets": ["next", "@babel/preset-env"],
+  "plugins": [
+    "@babel/plugin-proposal-class-properties",
+    ["module-resolver", {
+      "root": ["./"],
+      "alias": {
+        "@app": "./src/frontend/app",
+        "@backend": "./src/backend",
+        "@configuration": "./config",
+        "@frontend": "./src/frontend",
+        "@components": "./src/shared/components",
+        "@shared": "./src/shared",
+        "@styles": "./src/shared/styles",
+        "@ui": "./src/shared/components/ui"
+      }
+    }]
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "serverPort": 3000,
+  "languages": {
+    "default": "es",
+    "list": ["es", "en"]
+  },
+  "general": {
+    "slack": "https://developereducation.slack.com/join/shared_invite/enQtMjU0MzY0MjEzMzMxLWFjMTkxZDZlY2EyMzZmNmY2Y2U5MDQ1NDNkMmE2ZTFmZjljZmFkMDYyOTZlMmI1YTU3MjM0YzMwOTM4NzI5NzQ"
+  },
+  "security": {
+    "secretKey": "0a8bbc72-b330-4a6f-baf4-cacd2a554089",
+    "expiresIn": "7d",
+    "validateSecurityToken": true,
+    "refreshSecurityToken": true,
+    "email": {
+      "from": "Carlos from JS <carlos.santana@js.education>",
+      "user": "carlos.santana@js.education",
+      "clientId": "",
+      "clientSecret": "",
+      "refreshToken": ""
+    }
+  }
+}

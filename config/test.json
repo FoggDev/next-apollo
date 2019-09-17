@@ -1,0 +1,8 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "debug": true,
+  "cache": {
+    "enable": false,
+    "whitelist": []
+  }
+}
