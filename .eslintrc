@@ -6,8 +6,8 @@
     "jest": "true"
   },
   "rules": {
-    "arrow-parens": "off",
     "arrow-body-style": "off",
+    "arrow-parens": "off",
     "comma-dangle": "off",
     "consistent-return": "off",
     "default-case": "off",
@@ -41,6 +41,7 @@
     "no-return-assign": "off",
     "no-shadow": "off",
     "no-underscore-dangle": "off",
+    "no-use-before-define": ["error", { "functions": false }],
     "object-curly-newline": "off",
     "operator-linebreak": "off",
     "radix": "off",

@@ -1,8 +1,8 @@
-// Configuration
-import { $baseUrl, $isLocal } from '@configuration'
-
 // Next Routes
 import nextRoutes from '@frontend/next.routes'
+
+// Configuration
+import { $baseUrl } from '@configuration'
 
 export default (app, nextApp) => {
   // Disabling X-XSS-Protection for Chrome

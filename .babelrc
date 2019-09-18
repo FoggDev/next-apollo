@@ -6,6 +6,8 @@
       "root": ["./"],
       "alias": {
         "@app": "./src/frontend/app",
+        "@apollo-with-data": "./src/frontend/lib/apollo.js",
+        "@hooks": "./src/frontend/lib/hooks.js",
         "@backend": "./src/backend",
         "@configuration": "./config",
         "@frontend": "./src/frontend",
