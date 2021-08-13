@@ -31,7 +31,7 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^24.9.0",
     "next-apollo": "^3.1.4",
-    "next": "^9.0.4",
+    "next": "^11.1.0",
     "node-sass": "^4.12.0",
     "nodemailer": "^6.3.0",
     "nodemon": "^1.19.2",
